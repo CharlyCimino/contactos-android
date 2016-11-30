@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+    android:weightSum="1">
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="428dp"
+            android:id="@+id/lvContactos"
+            android:layout_alignParentStart="true"
+            android:headerDividersEnabled="false"
+            android:footerDividersEnabled="false"
+            android:layout_alignParentBottom="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="Vaciar bd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:layout_weight="1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="vaciarBD" />
+
+        <TextView
+            android:text="caemci © 2016"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textColor="#00A8C1"
+            android:layout_below="@+id/button2"
+            android:layout_centerHorizontal="true"
+            android:textStyle="normal|bold" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
+
+
+
